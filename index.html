@@ -1,56 +1,151 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<!--
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+-->
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Remote Talks</title>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+	<!-- Load fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
-    <title>Remotetalks.GitHub.io by remotetalks</title>
-  </head>
+	<!-- Load css styles -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
-  <body>
+</head>
+<body>
+	<div class="jumbotron home home-fullscreen" id="home">
+		<div class="mask"></div>
+		<a href="#" class="logo">
+			<!-- <img src="img/logo.png" alt="Moderno - Theme by GraphBerry.com"> -->
+		</a>
+		<a href="" class="menu-toggle" id="nav-expander"><i class="fa fa-bars"></i></a>
+		<!-- Offsite navigation -->
+		<nav class="menu">
+			<a href="#" class="close"><i class="fa fa-close"></i></a>
+			<h3>Menu</h3>
+			<ul class="nav">
+				<li><a data-scroll href="#home">Home</a></li>
+				<li><a data-scroll href="#about">About</a></li>
+				<li><a data-scroll href="#talks">Talks</a></li>
+				<li><a data-scroll href="#contact">Contact</a></li>
+			</ul>
+			<ul class="social-icons">
+				<li><a href="https://twitter.com/RemoteTalks"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://github.com/remotetalks"><i class="fa fa-github"></i></a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="header-info">
+				<h1>Remote Talks</h1>
+				<p>Remote community of Full Stack Developers</p>
+				<a href="#" class="btn btn-primary">Get in Touch</a>
+			</div>
+		</div>
+	</div>
+	<!-- Services section start -->
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon"><i class="fa fa-diamond"></i></div>
+						<h3>Tech excellence</h3>
+						<p>We aim to improve our technical skills everyday. Technology is our passion.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon"><i class="fa fa-gear"></i></div>
+						<h3>Sharing</h3>
+						<p>We believe that the more you share, the more you learn.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon"><i class="fa fa-life-ring"></i></div>
+						<h3><3 Remote</h3>
+						<p> We can break geographic limits and use tools to share our passion with the whole world!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services section end -->
+	<!-- Portfolio section start -->
+	<section id="talks" class="darker">
+		<div class="container">
+			<header>
+				<h2>Talks</h2>
+				<p>Screencasts, lightning talks, remote presentations</p>
+			</header>
+			<div id="single-project"></div>
+			<div class="row">
+				<h1>Soon..</h1>
+				<!-- <figure class="portfolio-item col-md-4 col-sm-6" >
+					<img class="img-responsive" src="img/projects/project-thumbnail-1.png" alt="Adena icons pack" />
+					<figcaption class="mask">
+						<a href="projects/project-1.html">
+							<i class="glyphicon glyphicon-plus"></i>
+						</a>
+					</figcaption>
+				</figure> -->
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio section end -->
+	<!-- Contact section start -->
+	<section id="contact">
+		<div class="container">
+			<header>
+				<h2>Get in Touch</h2>
+				<p>Drop us a line or join our slack channel</p>
+				<h3> info@remotetalks.com </h3>
+			</header>
 
-    <header>
-      <div class="container">
-        <h1>Remotetalks</h1>
-        <h2></h2>
+			<div class="map-wrapper" align="center">
+				<a href="http://remotetalks.herokuapp.com/" class="btn btn-primary">Join our slack channel</a>
+			</div>
+		</div>
+	</section>
+	<!-- Contact section end -->
+	<!-- Footer start -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<p>&copy; 2015 Template by <a href="http://graphberry.com" target="_blank">GraphBerry</a></p>
+				</div>
+				<div class="col-md-4">
+					<ul class="social-icons">
+						<li><a href="https://twitter.com/RemoteTalks"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://github.com/remotetalks"><i class="fa fa-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end  -->
 
-        <section id="downloads">
-          <a href="https://github.com/remotetalks" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a id="remote-talks" class="anchor" href="#remote-talks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remote Talks</h1>
+	<!-- Load Booststrap -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 
-<p>The idea of this community is to solve some problems related to meetups, basically we would like to:</p>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 
-<ol>
-<li>Go to a kind of "remote meetup"</li>
-<li>Create a remote "friend-to-friend" community of Developers.</li>
-<li>Create a good content with talks</li>
-</ol>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-<h2>
-<a id="format-of-our-remote-meetup" class="anchor" href="#format-of-our-remote-meetup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Format of our remote meetup:</h2>
-
-<ul>
-<li>Introduction of participants (5min)</li>
-<li>Short introduction - Speaker (3min)</li>
-<li>Talk (20min) - Speaker - recorded by youtube </li>
-<li>Questions and comments (15min)</li>
-</ul>
-
-<p>The overall duration is about 40min, but the talk should be only 20min. We would like to watch/listen the talk during a coffee break time. :- )</p>
-      </section>
-    </div>
-
-    
-  </body>
+	<!-- Load custom js for theme -->
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
