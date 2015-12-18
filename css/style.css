@@ -4,14 +4,14 @@
  * Author URL: http://graphberry.com
  * License: http://graphberry.com/pages/license
  */
- 
+
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 }
 
 p, input, textarea{
-	font-family: 'Lora', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 /****************
@@ -23,7 +23,7 @@ section{
 }
 
 section.darker{
-	background-color: #fbfbfb;
+	background-color: #E6EBEC;
 }
 
 section header{
@@ -193,7 +193,7 @@ SERVICES
 
 .service-item .icon i{
 	line-height: 110px;
-	font-size: 45px;	
+	font-size: 45px;
 	color: #fa694e;
 }
 
@@ -404,7 +404,7 @@ ul.social-icons > li > a{
 
 @media screen and (min-width: 768px){
 
-	.jumbotron h1, 
+	.jumbotron h1,
 	.jumbotron .h1 {
 		font-size: 75px;
 	}

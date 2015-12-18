@@ -43,34 +43,14 @@ $('.menu  a').on('click', function(e) {
 
     var portfolioItem = $('.portfolio-item  a');
     var singleProject = $('#single-project');
-    
+
     portfolioItem.click(function () {
 
-        var link = $(this).attr('href');
-        $('html, body').animate({
-            scrollTop: singleProject.offset().top - 30
-        }, 500);
+        var modal = $(this).attr('data-target');
+
+        $(modal).modal();
 
         singleProject.empty();
-
-        setTimeout(function () {
-            singleProject.load(link, function (response, status) {
-                if (status === "error") {
-                    alert("An error");
-                } else {
-                    singleProject.slideDown(500);
-
-                    var closeProject = $('#close-project');
-                    closeProject.on('click', function () {
-                        singleProject.slideUp(500);
-                        setTimeout(function () {
-
-                            singleProject.empty();
-                        }, 500);
-                    });
-                }
-            });
-        }, 500);
         return false;
     });
 }
@@ -104,13 +84,13 @@ google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY
         aPoint.x = aPoint.x+offsetX;
         aPoint.y = aPoint.y+offsetY;
         map.setCenter(proj.fromContainerPixelToLatLng(aPoint));
-    }; 
-    ov.draw = function() {}; 
-    ov.setMap(this); 
+    };
+    ov.draw = function() {};
+    ov.setMap(this);
 };
 
 /*
- * This function initialize google map. More info on 
+ * This function initialize google map. More info on
  * https://developers.google.com/maps/documentation/javascript/
  */
  function initializeMap() {
