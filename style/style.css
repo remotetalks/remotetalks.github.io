@@ -407,15 +407,15 @@ a.call-to-button-transparent { display: block;  height: 53px; line-height: 53px;
 #features1 .full .feature-image { float: none; width: 100%; margin-bottom: 110px; }
 
 /*-- Features style 2 --*/
-#features2 { padding: 100px 0px; overflow: hidden; position: relative; z-index: 100; background: #E6EBEC; }
-#features2 .section_intro { color: #7F7F7F; }
+#what { padding: 100px 0px; overflow: hidden; position: relative; z-index: 100; background: #E6EBEC; }
+#what .section_intro { color: #7F7F7F; }
 #features-wrapper { width: 1080px; margin: 0 auto; padding-top: 60px; }
 #features-image { width: 420px; float: left; }
 #features-image img { max-width: 360px; height: auto; display: block; margin: 0 auto; }
 #left-features, #right-features { width: 330px; padding-top: 60px; }
 #left-features { float: left; text-align: right; }
 #right-features { float: right; text-align: left;  }
-#features2 .feature { margin-bottom: 50px; }
+#what .feature { margin-bottom: 50px; }
 .feature-content { width: 220px; }
 .feature-content h3 { margin-bottom: 20px; font-size: 19px; font-weight: 300; }
 .feature-content p { line-height: 170%; font-size: 13px; color: #7F7F7F; }
@@ -471,8 +471,8 @@ html[xmlns] .carousel-slider {display: block;}
 /*=====================================================================================*/
 
 /*-- General --*/
-#services { padding-top: 106px; padding-bottom: 85px; position: relative; z-index: 100; background: #E6EBEC; }
-#services .section_intro { margin-bottom: 52px; color: #7F7F7F; }
+#talks { padding-top: 106px; padding-bottom: 85px; position: relative; z-index: 100; background: #E6EBEC; }
+#talks .section_intro { margin-bottom: 52px; color: #7F7F7F; }
 #service-items { width: 1080px; margin: 0 auto; overflow: hidden; }
 #service-items ul { width: 1096px; display: block; margin: 0; padding: 0; }
 #service-items ul li { float: left; width: 254px; margin-right: 20px; margin-bottom: 25px; padding-bottom: 2px; }
@@ -591,7 +591,7 @@ div#result { width: 65%; margin: 0 auto; margin-bottom: 35px; }
 .plans2 .pricing-column { width: 430px; margin: 0px 25px; }
 
 /*-- Download Section --*/
-#download-section { position: relative; z-index: 100; padding-top: 106px; padding-bottom: 110px; background: #26C281; }
+#join-us { position: relative; z-index: 100; padding-top: 106px; padding-bottom: 110px; background: #26C281; }
 #download-text { width: 960px; margin: 0 auto; margin-bottom: 60px; text-align: center; font-size: 40px; font-weight: 300; color: #FFF; }
 #download-buttons { overflow: hidden; }
 #download-buttons div.helper { position: relative; float: left; left: 50%; }
@@ -725,7 +725,7 @@ html[xmlns] .carousel-slider {display: block;}
      #home-image { width: 230px; }
      .home2 #intro { width: 670px; padding-top: 30px; }
      .home2 #call-to-action { width: 670px; }
-     
+
      /*- Features -*/
      #features1 .feature_content { width: 960px; }
      #features1 .feature-details { width: 400px; padding-top: 80px; }
@@ -734,7 +734,7 @@ html[xmlns] .carousel-slider {display: block;}
      #features-wrapper { width: 960px; }
      #features-image { width: 390px; }
      #left-features, #right-features { width: 280px; padding-top: 40px; }
-     #features2 .feature { margin-bottom: 40px; }
+     #what .feature { margin-bottom: 40px; }
      .feature-content { width: 180px; }
 
      /*- Services -*/
@@ -752,11 +752,11 @@ html[xmlns] .carousel-slider {display: block;}
      .grid4 .member .member-info .member-description { width: 155px; }
      .grid3 { width: 960px; }
      .grid3 .member { width: 300px; }
-     
+
      /*- Fun facts -*/
      #facts-wrapper { width: 960px; }
      #facts-wrapper ul li { width: 220px; }
-     
+
      /*- Pricing Tables -*/
      .plans4 { width: 960px; }
      .plans4 .pricing-column { width: 220px; margin: 0px 10px; }
@@ -798,7 +798,7 @@ html[xmlns] .carousel-slider {display: block;}
      #features-image { width: 340px; }
      #left-features, #right-features { width: 180px; padding-top: 40px; }
      .feature-circle { display: none; }
-     #features2 .feature { margin-bottom: 40px; }
+     #what .feature { margin-bottom: 40px; }
      .feature-content { width: 180px; }
 
      /*-- Screenshots --*/
@@ -809,13 +809,13 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshot-gallery ul li { width: 220px; margin-right: 20px; margin-bottom: 30px; }
 
      /*-- Services --*/
-     #services .section_intro { width: 500px; }
+     #talks .section_intro { width: 500px; }
      #service-items { width: 530px; }
      #service-items ul { width: 550px; }
      #service-items ul li { width: 254px; }
      #service-items ul li .service-teaser p { width: 195px; }
      #service-item { width: 500px; }
-     
+
      /*- Contact -*/
      #contact-form { width: 700px; }
      #contact-form input[type="text"] { width: 166px; }
@@ -915,7 +915,7 @@ html[xmlns] .carousel-slider {display: block;}
      #features1 .even .feature-details { float: none; }
      #features1 .even .feature-image { float: none; }
      /* Style 2 */
-     #features2 { padding: 60px 0px; }
+     #what { padding: 60px 0px; }
      #features-wrapper { width: 520px; padding-top: 15px; }
      #features-image { width: 520px; float: none; }
      #left-features, #right-features { width: 520px; padding-top: 0px; }
@@ -923,7 +923,7 @@ html[xmlns] .carousel-slider {display: block;}
      #right-features { float: none; text-align: center; margin-top: 30px;  }
      .feature-content { width: 400px; margin: 0 auto; }
      .feature-circle { display: block; margin: 0 auto; margin-bottom: 30px; }
-     #features2 .feature { margin-bottom: 40px; }
+     #what .feature { margin-bottom: 40px; }
      #left-features .feature-content { float: none; }
      #left-features .feature-circle { float: none; }
      #right-features .feature-content { float: none; }
@@ -960,7 +960,7 @@ html[xmlns] .carousel-slider {display: block;}
 
      /*- Extras -*/
      #video-container { width: 520px; }
-     #download-section { padding-top: 66px; padding-bottom: 70px; }
+     #join-us { padding-top: 66px; padding-bottom: 70px; }
      #download-text { width: 520px; margin-bottom: 45px; font-size: 30px; }
      #testimonials { padding-top: 60px; padding-bottom: 38px; }
      #testimonials-slider { width: 520px; }
@@ -974,7 +974,7 @@ html[xmlns] .carousel-slider {display: block;}
      #facts-wrapper { width: 520px; }
      #facts-wrapper ul li { width: 240px; margin: 10px 10px; padding-top: 30px; }
      .fact-number { margin-bottom: 30px; font-size: 47px; }
-     
+
      /*- Pricing Tables -*/
      #pricing { padding: 80px 0px; }
      #pricing .section_title { margin-bottom: 50px; }
@@ -1029,7 +1029,7 @@ html[xmlns] .carousel-slider {display: block;}
      #features1 .feature-image { width: 420px; }
      #features1 .full .feature-details .feature-text { width: 380px; }
      /* Style 2 */
-     #features2 { padding: 50px 0px; }
+     #what { padding: 50px 0px; }
      #features-wrapper { width: 420px; padding-top: 15px; }
      #features-image { width: 420px; }
      #left-features, #right-features { width: 420px; padding-top: 0px; }
@@ -1046,13 +1046,13 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }
 
      /*-- Services --*/
-     #services .section_intro { width: 400px; }
+     #talks .section_intro { width: 400px; }
      #service-items { width: 420px; }
      #service-items ul { width: 440px; }
      #service-items ul li { width: 200px; }
      #service-items ul li .service-teaser p { width: 155px; }
      #service-item { width: 400px; }
-     
+
      /*- Contact -*/
      #contact { padding-top: 40px; padding-bottom: 35px; }
      #contact-form { width: 420px; }
@@ -1076,11 +1076,11 @@ html[xmlns] .carousel-slider {display: block;}
      .grid2 .member { width: 190px; }
      .grid2 .member .member-info .member-description { width: 150px; }
 
-     
+
      /*- Extras -*/
      #video-tour { padding-top: 70px; padding-bottom: 60px; }
      #video-container { width: 420px; }
-     #download-section { padding-top: 56px; padding-bottom: 60px; }
+     #join-us { padding-top: 56px; padding-bottom: 60px; }
      #download-text { width: 420px; margin-bottom: 40px; font-size: 22px; }
      #testimonials-slider { width: 420px; }
      .testimonial-content { width: 215px; }
@@ -1158,8 +1158,8 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }
 
      /*-- Services --*/
-     #services { padding-top: 60px; padding-bottom: 40px; }
-     #services .section_intro { width: 360px; }
+     #talks { padding-top: 60px; padding-bottom: 40px; }
+     #talks .section_intro { width: 360px; }
      #service-items { width: 380px; }
      #service-items ul { width: 400px; }
      #service-items ul li { width: 179px; }
@@ -1192,7 +1192,7 @@ html[xmlns] .carousel-slider {display: block;}
 
      /*- Extras -*/
      #video-container { width: 380px; }
-     #download-section { padding-top: 56px; padding-bottom: 40px; }
+     #join-us { padding-top: 56px; padding-bottom: 40px; }
      #download-text { width: 380px; font-size: 18px; }
      #download-buttons div.helper { float: none; left: auto; }
      #download-buttons div.helper ul { float: none; left: auto; }
@@ -1204,7 +1204,7 @@ html[xmlns] .carousel-slider {display: block;}
      /* Fun facts */
      #facts-wrapper { width: 380px; }
      #facts-wrapper ul li { width: 170px; margin: 10px 10px; }
-     
+
      /*- Pricing Tables -*/
      .plans4 { width: 380px; }
      .plans4 .pricing-column { width: 380px; margin: 0px; margin-bottom: 20px; }
@@ -1230,7 +1230,7 @@ html[xmlns] .carousel-slider {display: block;}
      .plans2 .pricing-column ul li.plan-price span.period { font-size: 16px; }
      .plans2 .pricing-column ul li.plan-price span.note { padding-top: 16px; font-size: 11px; }
      .plans2 .pricing-column ul li.plan-row { height: 35px; line-height: 35px; }
-     
+
      /*- Subscribe form -*/
      #subscribe { padding-top: 70px; padding-bottom: 75px; }
      #subscribe-form { width: 360px; margin: 0 auto; }
@@ -1288,7 +1288,7 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshot-gallery ul li { width: 300px; }
 
      /*-- Services --*/
-     #services .section_intro { width: 200px; }
+     #talks .section_intro { width: 200px; }
      #service-items { width: 255px; }
      #service-items ul { width: 255px; }
      #service-items ul li { width: 254px; margin: 0px; margin-bottom: 20px; }
@@ -1314,10 +1314,10 @@ html[xmlns] .carousel-slider {display: block;}
      .grid2 { width: 300px; }
      .grid2 .member { width: 300px; }
      .grid2 .member .member-info .member-description { width: 220px; }
-     
+
      /*- Extras -*/
      #video-container { width: 300px; }
-     #download-section { padding-top: 56px; padding-bottom: 40px; }
+     #join-us { padding-top: 56px; padding-bottom: 40px; }
      #download-text { width: 300px; font-size: 18px; }
      #download-buttons div.helper { float: none; left: auto; }
      #download-buttons div.helper ul { float: none; left: auto; }
@@ -1391,13 +1391,3 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 }
-
-
-
-
-
-
-
-
-
-
