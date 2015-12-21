@@ -1004,7 +1004,7 @@ html[xmlns] .carousel-slider {display: block;}
 
      /*- Modals -*/
      .remodal-wrapper { top: 52px; }
-     .remodal-wrapper h3 { line-height: 10px; }
+     .remodal-wrapper h3 { line-height: 20px; }
 }
 
 /*--- Screen <= 500px ( iPhone 3 & 4 ( and many more devices... ) landscape view )---*/
