@@ -603,6 +603,10 @@ div#result { width: 65%; margin: 0 auto; margin-bottom: 35px; }
 #download-buttons div.helper ul li a.call-to-button i.fa-android { top: 18px; }
 #download-buttons div.helper ul li a.call-to-button i.fa-2x { font-size: 28px; }
 
+a.button-green {
+	background: #26C281;
+}
+
 /*-- Fun facts --*/
 #fun-facts { position: relative; z-index: 100; padding: 130px 0px; background: transparent; }
 #facts-wrapper { width: 1100px; margin: 0 auto; overflow: hidden; }
