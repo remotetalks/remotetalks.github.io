@@ -1002,6 +1002,9 @@ html[xmlns] .carousel-slider {display: block;}
      .plans2 { width: 520px; }
      .plans2 .pricing-column { width: 240px; margin: 0px 10px; margin-bottom: 20px; }
 
+     /*- Modals -*/
+     .remodal-wrapper { top: 52px; }
+     .remodal-wrapper h3 { line-height: 10px; }
 }
 
 /*--- Screen <= 500px ( iPhone 3 & 4 ( and many more devices... ) landscape view )---*/
