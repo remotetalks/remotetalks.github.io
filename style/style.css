@@ -705,7 +705,7 @@ html[xmlns] .carousel-slider {display: block;}
 
 .remodal { line-height: 16px;font-size: 105%;}
 
-.remodal p { margin-bottom: 10px; }
+.remodal p { margin-bottom: 10px; text-align: justify;}
 
 /*=====================================================================================*/
 /*       11. MEDIA QUERIES                                                             */
