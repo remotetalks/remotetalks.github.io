@@ -1060,12 +1060,13 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }
 
      /*-- Services --*/
-     #talks .section_intro { width: 400px; }
-     #service-items { width: 420px; }
-     #service-items ul { width: 440px; }
-     #service-items ul li { width: 200px; }
-     #service-items ul li .service-teaser p { width: 155px; }
-     #service-item { width: 400px; }
+     #talks { padding-top: 60px; padding-bottom: 40px; }
+     #talks .section_intro { width: 360px; }
+     #service-items { width: 380px; }
+     #service-items ul { width: 100%; }
+     #service-items ul li { width: 100%; }
+     #service-items ul li .service-teaser p { width: 80%; }
+     #service-item { width: 300px; }
 
      /*- Contact -*/
      #contact { padding-top: 40px; padding-bottom: 35px; }
@@ -1169,16 +1170,7 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshots2 .section_intro { margin-bottom: 40px; }
      #screenshot-gallery { width: 380px; }
      #screenshot-gallery ul { width: 380px;  }
-     #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }
-
-     /*-- Services --*/
-     #talks { padding-top: 60px; padding-bottom: 40px; }
-     #talks .section_intro { width: 360px; }
-     #service-items { width: 380px; }
-     #service-items ul { width: 400px; }
-     #service-items ul li { width: 179px; }
-     #service-items ul li .service-teaser p { width: 145px; }
-     #service-item { width: 350px; }
+     #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }     
 
      /*- Contact -*/
      #contact-form { width: 380px; }
