@@ -33,7 +33,8 @@
 <link rel="stylesheet" type="text/css" href="style/font-awesome.css" />
 <link rel="stylesheet" type="text/css" href="style/animate.css" />
 <link rel="stylesheet" type="text/css" href="style/style.css" />
-<link rel="stylesheet" type="text/css" href="style/modal.css" />
+<link rel="stylesheet" type="text/css" href="style/remodal.css" />
+<link rel="stylesheet" type="text/css" href="style/remodal-default-theme.css" />
 
 <!-- Additional color variations ( uncomment to acitvate ) -->
 <!-- YOUR CUSTOM STYLES: <link rel="stylesheet" type="text/css" href="style/customize.css" /> -->
@@ -288,8 +289,8 @@
                                   Channels are a really exciting and powerful part of Phoenix that allow us to easily add soft-realtime features to our applications.
                                   </p>
                              </div>
-                             <div class="service-more md-trigger" data-modal="introduction-to-phoenix-channels">
-                                  <a href="#talks" data-modal="introduction-to-phoenix-channels" class="md-trigger"><h3>More Info</h3></a>
+                             <div class="service-more" data-modal="introduction-to-phoenix-channels">
+                                  <a href="#introduction-to-phoenix-channels"><h3>More Info</h3></a>
                                   <a href="https://plus.google.com/events/cqvlpe6o0dtkmqgg9qb6nm24u08" target="_blank" class="call-to-button scroll">Click to Watch</a>
                              </div>
                         </div>
@@ -316,8 +317,8 @@
                                   to have a better (safer)...
                                   </p>
                              </div>
-                             <div class="service-more md-trigger" data-modal="rust-for-rubyist">
-                                  <a href="#service-items" data-modal="rust-for-rubyist" class="md-trigger"><h3>More Info</h3></a>
+                             <div class="service-more">
+                                  <a href="#rust-for-rubyist"><h3>More Info</h3></a>
                                   <a href="http://doodle.com/poll/wz7yz65x39m3xbvd#admin" target="_blank" class="call-to-button scroll">Decide when it will be</a>
                              </div>
                         </div>
@@ -341,8 +342,9 @@
 <!-- SERVICES -->
 
 
-<div class="md-modal md-effect-3" id="introduction-to-phoenix-channels">
-  <div class="md-content">
+<div class="remodal" data-remodal-id="introduction-to-phoenix-channels">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <div>
     <h3>Introduction to Phoenix channels</h3>
     <div>
       <p>
@@ -358,14 +360,14 @@
 
 			<p><a href="https://plus.google.com/events/cqvlpe6o0dtkmqgg9qb6nm24u08">Click to Watch</a></p>
 
-      </p>
-      <button class="md-close service-more">Close</button>
+      </p>      
     </div>
   </div>
 </div>
 
-<div class="md-modal md-effect-3" id="rust-for-rubyist">
-  <div class="md-content">
+<div class="remodal" data-remodal-id="rust-for-rubyist">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <div>
     <h3>Rust for Rubyist</h3>
     <div>
       <p>
@@ -384,7 +386,6 @@
       </p>
 
       </p>
-      <button class="md-close service-more">Close</button>
     </div>
   </div>
 </div>
@@ -488,8 +489,8 @@
 <script type="text/javascript" src="scripts/wow.js"></script>
 <script type="text/javascript" src="scripts/tubular.js"></script>
 <script type="text/javascript" src="scripts/menu.js"></script>
+<script type="text/javascript" src="scripts/remodal.min.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
-<script type="text/javascript" src="scripts/modalEffects.js"></script>
 <script>
  new WOW().init();
 </script>
